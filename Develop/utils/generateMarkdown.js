@@ -6,8 +6,34 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+
+  ## Table of Contents
+  *[Installation](#installation)
+  *[Usage](#usage)
+
+
   ## Installation
   ${data.installion}
+
+
+  ## Usage
+  ${data.usage}
+
+
+  ## Credits
+  ${data.contribute}
+
+
+  ## License
+
+
+  ## Badges
+
+
+  ## Contributing
+
+
+  ## Tests
   `;
 
   return readme;
