@@ -1,32 +1,32 @@
-# Auto-Gen
+# Autom
 
   ## Description
-  now is the time
+  qwerty
 
 
   ## Table of Contents
   *[Installation](#installation)  
   *[Usage](#usage)  
-  *[Credits](#credits)  
   *[License](#license)  
   *[Badges](#badges)  
   *[Contributing](#contributing)  
   *[Tests](#tests)  
+  *[Questions](#questions)  
 
 
   ## Installation
   undefined
+  rhmorganjr
 
 
   ## Usage
-  enter node index.js
-
-
-  ## Credits
-  no
+  rththtyj
 
 
   ## License
+  MIT  
+  $[MIT](https://opensource.org/licenses/MIT)
+
 
 
   ## Badges
@@ -36,4 +36,10 @@
 
 
   ## Tests
+
+
+  ## Questions
+  Email: rhmorganjr@gmail.com  
+  GitHub: rhmorganjr  
+
   
