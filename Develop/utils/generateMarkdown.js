@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-  let readme = `# ${data.title}
+  let readme = `# ${data.title} by ${data.name}
 
   ## Description
   ${data.description}
@@ -18,8 +18,8 @@ function generateMarkdown(data) {
 
 
   ## Installation
-  ${data.installion}
-  ${data.github}
+  ${data.installation}
+  GitHub id: ${data.github}
 
 
   ## Usage
@@ -28,17 +28,17 @@ function generateMarkdown(data) {
 
   ## License
   ${data.license}  
-  $[MIT](https://opensource.org/licenses/MIT)
-
-
+ 
 
   ## Badges
 
 
   ## Contributing
+  ${data.contribute}
 
 
   ## Tests
+  ${data.tests}
 
 
   ## Questions

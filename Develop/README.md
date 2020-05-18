@@ -1,7 +1,7 @@
-# Autom
+# Automatically Generate Project's README by Russell Morgan
 
   ## Description
-  qwerty
+  This week's challenge was to create a javascript module to automatically generate the project's README.md file. It uses input from the user, as answers to prompts for the data. Besides javascript, the file system (fs) was used to write out the README and inquirer was used to prompt the questions to the user.
 
 
   ## Table of Contents
@@ -15,27 +15,27 @@
 
 
   ## Installation
-  undefined
-  rhmorganjr
+  Use 'git clone ...' to install the the following respository on your local machine;
+  GitHub id: rhmorganjr
 
 
   ## Usage
-  rththtyj
+  node index.js
 
 
   ## License
-  MIT  
-  $[MIT](https://opensource.org/licenses/MIT)
-
-
+  [MIT](https://opensource.org/licenses/MIT)  
+ 
 
   ## Badges
 
 
   ## Contributing
+  No thanks.
 
 
   ## Tests
+  No
 
 
   ## Questions

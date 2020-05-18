@@ -10,7 +10,7 @@ const projectQuestions = [
   { name: 'name', message:'What is your name?'},
   { name: 'email', message: 'What is your email address?'},
   { name: 'github', message: 'What is your Github id?'},
-  { name: 'license', message: 'What license would you like to use?'},
+  { name: 'license', message: 'What license would you like to use; Apache, GNU, Mozilla or MIT?'},
   { name: 'title', message:"What is your project's title?"},
   { name: 'description', message: 'Provide a description of your project'},
   { name: 'installation', message: 'What are the installation instructions?'},
@@ -33,7 +33,18 @@ function getInput() {
   inquirer
     .prompt(projectQuestions)
     .then(answers => {
-      //console.log(answers);
+      if (answers.license === 'MIT') {
+        answers.license = '[MIT](https://opensource.org/licenses/MIT)'
+      } else if (answers.license === 'Apache') {
+        answers.license = '[Apache 2.0](https://opensource.org/licenses/Apache-2.0)';
+      } else if (answers.license === 'GNU') {
+        answers.license = '[GNU GPLv3](https://opensource.org/licenses/GPL-3.0)';
+      } else if (answers.license === 'Mozilla') {
+        answers.license = '[Mozilla 2.0](https://opensource.org/licenses/MPL-2.0)';
+      } else {
+        answers.license = 'No licence selected';
+      }
+
       writeToFile(fileName, answers);
     });
 }
